@@ -1,0 +1,23 @@
+table {
+    /* xóa 2 viền*/
+    border-collapse: collapse;
+    /* bảng rộng full màn */
+    width: 100%;
+}
+table, td, th {
+    /*viền rộng 1px, nét liền, đen */
+    border: 1px solid black;
+}
+
+th {
+    /* Độ cao bảng */
+    height: 50px;
+    /* chữ căn chữ sang trái */
+    text-align: left;
+    /* Căn chỉnh theo chiều dọc */
+    vertical-align: bottom;
+    /* viền trái cách nội dung 15px */
+    padding: 15px;
+    background-color: #ff9999;
+}
+tr:nth-child(even){background-color: #ff3399}
